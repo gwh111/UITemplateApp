@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](http://opensource.org/licenses/MIT "Feel free to contribute.")
 
-'UITemplateApp' is a framework with UI component for efficient development.    
+'UITemplateApp' is an app build with 'UITemplateKit' & 'bench_ios' for efficient development.    
 
 ## Contributors
 
