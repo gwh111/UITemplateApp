@@ -1,0 +1,62 @@
+{
+  "name": "CurrencyKit",
+  "version": "1.0.0",
+  "summary": "CurrencyKit",
+  "description": "AccountLib",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "BoASir": "992816613@qq.com"
+  },
+  "source": {
+    "svn": "https://huored.gicp.net:8088/svn/bench_ios/trunk/kit/CurrencyKit",
+    "tag": "1.0.0"
+  },
+  "module_name": "Rich",
+  "homepage": "https://github.com/gwh111/bench_ios",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "bench_ios": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "AccountLib": [
+
+    ],
+    "FinanceLib": [
+
+    ],
+    "UITemplateKit/日期选择": [
+
+    ]
+  },
+  "source_files": "CurrencyKit/CurrencyKit/*.{h,m}",
+  "resources": "CurrencyKit/CurrencyKit/Resources/*.{png}",
+  "subspecs": [
+    {
+      "name": "Common",
+      "source_files": "CurrencyKit/CurrencyKit/Common/**/*"
+    },
+    {
+      "name": "TradeDetail",
+      "source_files": "CurrencyKit/CurrencyKit/TradeDetail/**/*"
+    },
+    {
+      "name": "BankCard",
+      "source_files": "CurrencyKit/CurrencyKit/BankCard/**/*"
+    },
+    {
+      "name": "Withdraw",
+      "source_files": "CurrencyKit/CurrencyKit/Withdraw/**/*"
+    },
+    {
+      "name": "Charge",
+      "source_files": "CurrencyKit/CurrencyKit/Charge/**/*"
+    }
+  ]
+}

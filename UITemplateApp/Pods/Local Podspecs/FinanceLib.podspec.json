@@ -1,0 +1,33 @@
+{
+  "name": "FinanceLib",
+  "version": "1.0.0",
+  "summary": "FinanceLib",
+  "description": "FinanceLib",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "BoASir": "992816613@qq.com"
+  },
+  "source": {
+    "svn": "https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/FinanceLib",
+    "tag": "1.0.0"
+  },
+  "module_name": "Rich",
+  "homepage": "https://github.com/gwh111/bench_ios",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "bench_ios": [
+
+    ]
+  },
+  "source_files": "FinanceLib/FinanceLib/*.{h,m}",
+  "subspecs": [
+    {
+      "name": "Bank",
+      "source_files": "FinanceLib/FinanceLib/Bank/**/*"
+    }
+  ]
+}

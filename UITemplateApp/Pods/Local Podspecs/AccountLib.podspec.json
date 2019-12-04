@@ -1,0 +1,45 @@
+{
+  "name": "AccountLib",
+  "version": "1.0.0",
+  "summary": "AccountLib",
+  "description": "AccountLib",
+  "license": {
+    "type": "BSD"
+  },
+  "authors": {
+    "BoASir": "992816613@qq.com"
+  },
+  "source": {
+    "svn": "https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/AccountLib",
+    "tag": "1.0.0"
+  },
+  "module_name": "Rich",
+  "homepage": "https://github.com/gwh111/bench_ios",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "bench_ios": [
+
+    ]
+  },
+  "source_files": "AccountLib/AccountLib/*.{h,m}",
+  "subspecs": [
+    {
+      "name": "Freeze",
+      "source_files": "AccountLib/AccountLib/Freeze/**/*"
+    },
+    {
+      "name": "Deposit",
+      "source_files": "AccountLib/AccountLib/Deposit/**/*"
+    },
+    {
+      "name": "Account",
+      "source_files": "AccountLib/AccountLib/Account/**/*"
+    },
+    {
+      "name": "Withdraw",
+      "source_files": "AccountLib/AccountLib/Withdraw/**/*"
+    }
+  ]
+}

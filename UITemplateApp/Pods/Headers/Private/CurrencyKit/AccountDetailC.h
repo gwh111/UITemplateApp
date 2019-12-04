@@ -1,0 +1,1 @@
+../../../CurrencyKit/CurrencyKit/CurrencyKit/TradeDetail/AccountDetailC.h

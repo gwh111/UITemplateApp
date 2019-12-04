@@ -1,0 +1,19 @@
+${PODS_ROOT}/Target Support Files/Pods-UITemplateApp/Pods-UITemplateApp-resources.sh
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/bankCard_add.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/bankChoose_selected.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/bankChoose_unSelected.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/charge_fail.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/charge_success.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/withdrawInfo_close.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/withdraw_ask.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/withdraw_bankCard_selected.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/withdraw_bankCard_unSelected.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/withdraw_date.png
+${PODS_ROOT}/CurrencyKit/CurrencyKit/CurrencyKit/Resources/withdraw_right_arrow.png
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/UITemplateKit/UITemplateKit/UILib/城市选择/CatCitySelect.bundle
+${PODS_ROOT}/UITemplateKit/UITemplateKit/UILib/底部导航/CatNav.bundle
+${PODS_ROOT}/UITemplateKit/UITemplateKit/UILib/强提示2/CatAttributedAlert.xib
+${PODS_ROOT}/UITemplateKit/UITemplateKit/UILib/强提示2/CatAttributedAlertLabel.xib
+${PODS_ROOT}/UITemplateTest/UITemplateKit/test/通用UI/testList.plist
+${PODS_ROOT}/bench_ios/bench_ios/bench/bench_ios.bundle

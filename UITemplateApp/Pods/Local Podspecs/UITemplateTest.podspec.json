@@ -1,0 +1,32 @@
+{
+  "name": "UITemplateTest",
+  "version": "2.0.0",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/gwh111/bench_ios",
+  "authors": {
+    "apple": "173695508@qq.com"
+  },
+  "summary": "IOS bench tool for developer",
+  "source": {
+    "svn": "https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate"
+  },
+  "module_name": "Rich",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "bench_ios": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "通用UI",
+      "source_files": "UITemplateKit/test/通用UI/**/*",
+      "resources": "UITemplateKit/test/通用UI/*.{plist}",
+      "frameworks": "UIKit"
+    }
+  ]
+}

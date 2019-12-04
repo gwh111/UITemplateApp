@@ -1,0 +1,192 @@
+{
+  "name": "UITemplateKit",
+  "version": "2.0.0",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/gwh111/bench_ios",
+  "authors": {
+    "apple": "173695508@qq.com"
+  },
+  "summary": "IOS bench tool for developer",
+  "source": {
+    "svn": "https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate"
+  },
+  "module_name": "Rich",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "dependencies": {
+    "bench_ios": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "断网提示",
+      "source_files": "UITemplateKit/UILib/断网提示/*.{h,m}",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "分页器",
+      "source_files": "UITemplateKit/UILib/分页器/*.{h,m}"
+    },
+    {
+      "name": "聊天列表",
+      "source_files": "UITemplateKit/UILib/聊天列表/*.{h,m}"
+    },
+    {
+      "name": "聊天详情",
+      "source_files": "UITemplateKit/UILib/聊天详情/*.{h,m}"
+    },
+    {
+      "name": "默认弹窗",
+      "source_files": "UITemplateKit/UILib/默认弹窗/*.{h,m}"
+    },
+    {
+      "name": "强提示",
+      "source_files": "UITemplateKit/UILib/强提示/*.{h,m}"
+    },
+    {
+      "name": "强提示2",
+      "source_files": "UITemplateKit/UILib/强提示2/*.{h,m}",
+      "resources": [
+        "UITemplateKit/UILib/**/CatAttributedAlert.xib",
+        "UITemplateKit/UILib/**/CatAttributedAlertLabel.xib"
+      ]
+    },
+    {
+      "name": "人员选取",
+      "source_files": "UITemplateKit/UILib/**/CatPersonSelectVC.{h,m}"
+    },
+    {
+      "name": "日期选择",
+      "source_files": "UITemplateKit/UILib/日期选择/*.{h,m}"
+    },
+    {
+      "name": "下拉列表",
+      "source_files": "UITemplateKit/UILib/下拉列表/*.{h,m}"
+    },
+    {
+      "name": "分类筛选",
+      "source_files": "UITemplateKit/UILib/分类筛选/*.{h,m}"
+    },
+    {
+      "name": "文章标题",
+      "source_files": "UITemplateKit/UILib/**/Cat{ArticleTitle,ArticleTitleView,ArticleTitleTool}.{h,m}"
+    },
+    {
+      "name": "登录",
+      "source_files": "UITemplateKit/UILib/**/Cat{Login*}.{h,m}"
+    },
+    {
+      "name": "城市选择",
+      "source_files": "UITemplateKit/UILib/城市选择/*.{h,m}",
+      "resources": "UITemplateKit/UILib/**/CatCitySelect.bundle"
+    },
+    {
+      "name": "简单容器视图",
+      "source_files": "UITemplateKit/UILib/简单容器视图/*.{h,m}"
+    },
+    {
+      "name": "侧滑容器视图",
+      "source_files": "UITemplateKit/UILib/侧滑容器视图/*.{h,m}"
+    },
+    {
+      "name": "弹窗容器视图",
+      "source_files": "UITemplateKit/UILib/弹窗容器视图/*.{h,m}"
+    },
+    {
+      "name": "表单容器视图",
+      "source_files": "UITemplateKit/UILib/表单容器视图/*.{h,m}"
+    },
+    {
+      "name": "新特性",
+      "source_files": "UITemplateKit/UILib/新特性/*.{h,m}"
+    },
+    {
+      "name": "贴纸视图",
+      "source_files": "UITemplateKit/UILib/贴纸视图/*.{h,m}"
+    },
+    {
+      "name": "搜索",
+      "source_files": "UITemplateKit/UILib/搜索/*.{h,m}",
+      "subspecs": [
+        {
+          "name": "template",
+          "source_files": "UITemplateKit/UILib/搜索/template/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "级联选择视图",
+      "source_files": "UITemplateKit/UILib/级联选择视图/**/*.{h,m}"
+    },
+    {
+      "name": "通用选择",
+      "source_files": "UITemplateKit/UILib/通用选择/*.{h,m}"
+    },
+    {
+      "name": "APPActionSet",
+      "source_files": "UITemplateKit/UILib/APPActionSet/**/*.{h,m}"
+    },
+    {
+      "name": "listType",
+      "source_files": "UITemplateKit/UILib/listType/*.{h,m}",
+      "dependencies": {
+        "Masonry": [
+
+        ]
+      }
+    },
+    {
+      "name": "照片选择",
+      "source_files": "UITemplateKit/UILib/照片选择/**/*.{h,m}",
+      "dependencies": {
+        "UITemplateKit/Camera/photo": [
+
+        ],
+        "UITemplateKit/侧滑容器视图": [
+
+        ]
+      }
+    },
+    {
+      "name": "Camera",
+      "subspecs": [
+        {
+          "name": "Core",
+          "source_files": "UITemplateKit/UILib/Camera/CatCameraImp.{h,m}"
+        },
+        {
+          "name": "photo",
+          "source_files": "UITemplateKit/UILib/Camera/CatCamera*.{h,m}",
+          "dependencies": {
+            "UITemplateKit/Camera/Core": [
+
+            ]
+          }
+        },
+        {
+          "name": "qrcode",
+          "source_files": "UITemplateKit/UILib/Camera/CatQRcode*.{h,m}",
+          "dependencies": {
+            "UITemplateKit/Camera/Core": [
+
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "底部导航",
+      "source_files": "UITemplateKit/UILib/底部导航/*.{h,m}",
+      "resources": "UITemplateKit/UILib/**/CatNav.bundle",
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "轮播控件",
+      "source_files": "UITemplateKit/UILib/轮播控件/*.{h,m}"
+    }
+  ]
+}

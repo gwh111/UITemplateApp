@@ -1,0 +1,10 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AccountLib" "${PODS_ROOT}/Headers/Public/CurrencyKit" "${PODS_ROOT}/Headers/Public/FinanceLib" "${PODS_ROOT}/Headers/Public/MJRefresh" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/UITemplateKit" "${PODS_ROOT}/Headers/Public/UITemplateTest" "${PODS_ROOT}/Headers/Public/bench_ios"
+LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/AccountLib" "${PODS_CONFIGURATION_BUILD_DIR}/CurrencyKit" "${PODS_CONFIGURATION_BUILD_DIR}/FinanceLib" "${PODS_CONFIGURATION_BUILD_DIR}/MJRefresh" "${PODS_CONFIGURATION_BUILD_DIR}/Masonry" "${PODS_CONFIGURATION_BUILD_DIR}/UITemplateKit" "${PODS_CONFIGURATION_BUILD_DIR}/UITemplateTest" "${PODS_CONFIGURATION_BUILD_DIR}/bench_ios"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AccountLib" -isystem "${PODS_ROOT}/Headers/Public/bench_ios" -isystem "${PODS_ROOT}/Headers/Public/CurrencyKit" -isystem "${PODS_ROOT}/Headers/Public/FinanceLib" -isystem "${PODS_ROOT}/Headers/Public/MJRefresh" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/UITemplateKit" -isystem "${PODS_ROOT}/Headers/Public/UITemplateTest"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"AccountLib" -l"CurrencyKit" -l"FinanceLib" -l"MJRefresh" -l"Masonry" -l"UITemplateKit" -l"UITemplateTest" -l"bench_ios" -framework "Foundation" -framework "UIKit"
+PODS_BUILD_DIR = ${BUILD_DIR}
+PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
+PODS_ROOT = ${SRCROOT}/Pods
+USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES

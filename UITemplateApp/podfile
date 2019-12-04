@@ -1,0 +1,16 @@
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'UITemplateApp' do
+  pod 'bench_ios', :svn => 'https://huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios'
+  
+  pod 'UITemplateKit', :svn => 'https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit'
+  pod 'UITemplateTest', :svn => 'https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit'
+  
+  pod 'AccountLib', :svn => 'https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/AccountLib/AccountLib'
+  pod 'FinanceLib', :svn => 'https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/FinanceLib/FinanceLib'
+  pod 'CurrencyKit', :svn => 'https://huored.gicp.net:8088/svn/bench_ios/trunk/kit/CurrencyKit/CurrencyKit'
+  
+  pod 'Masonry'
+end

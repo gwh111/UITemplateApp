@@ -1,0 +1,249 @@
+PODS:
+  - AccountLib (1.0.0):
+    - AccountLib/Account (= 1.0.0)
+    - AccountLib/Deposit (= 1.0.0)
+    - AccountLib/Freeze (= 1.0.0)
+    - AccountLib/Withdraw (= 1.0.0)
+    - bench_ios
+  - AccountLib/Account (1.0.0):
+    - bench_ios
+  - AccountLib/Deposit (1.0.0):
+    - bench_ios
+  - AccountLib/Freeze (1.0.0):
+    - bench_ios
+  - AccountLib/Withdraw (1.0.0):
+    - bench_ios
+  - bench_ios (2.0.1):
+    - bench_ios/CC_CoreFoundation (= 2.0.1)
+    - bench_ios/CC_Foundation (= 2.0.1)
+    - bench_ios/CC_Function (= 2.0.1)
+    - bench_ios/CC_Kit (= 2.0.1)
+    - bench_ios/CC_Lib (= 2.0.1)
+    - bench_ios/debugPlugin (= 2.0.1)
+  - bench_ios/CC_CoreFoundation (2.0.1)
+  - bench_ios/CC_Foundation (2.0.1)
+  - bench_ios/CC_Function (2.0.1)
+  - bench_ios/CC_Kit (2.0.1)
+  - bench_ios/CC_Lib (2.0.1)
+  - bench_ios/debugPlugin (2.0.1)
+  - CurrencyKit (1.0.0):
+    - AccountLib
+    - bench_ios
+    - CurrencyKit/BankCard (= 1.0.0)
+    - CurrencyKit/Charge (= 1.0.0)
+    - CurrencyKit/Common (= 1.0.0)
+    - CurrencyKit/TradeDetail (= 1.0.0)
+    - CurrencyKit/Withdraw (= 1.0.0)
+    - FinanceLib
+    - MJRefresh
+    - "UITemplateKit/日期选择"
+  - CurrencyKit/BankCard (1.0.0):
+    - AccountLib
+    - bench_ios
+    - FinanceLib
+    - MJRefresh
+    - "UITemplateKit/日期选择"
+  - CurrencyKit/Charge (1.0.0):
+    - AccountLib
+    - bench_ios
+    - FinanceLib
+    - MJRefresh
+    - "UITemplateKit/日期选择"
+  - CurrencyKit/Common (1.0.0):
+    - AccountLib
+    - bench_ios
+    - FinanceLib
+    - MJRefresh
+    - "UITemplateKit/日期选择"
+  - CurrencyKit/TradeDetail (1.0.0):
+    - AccountLib
+    - bench_ios
+    - FinanceLib
+    - MJRefresh
+    - "UITemplateKit/日期选择"
+  - CurrencyKit/Withdraw (1.0.0):
+    - AccountLib
+    - bench_ios
+    - FinanceLib
+    - MJRefresh
+    - "UITemplateKit/日期选择"
+  - FinanceLib (1.0.0):
+    - bench_ios
+    - FinanceLib/Bank (= 1.0.0)
+  - FinanceLib/Bank (1.0.0):
+    - bench_ios
+  - Masonry (1.1.0)
+  - MJRefresh (3.2.2)
+  - UITemplateKit (2.0.0):
+    - bench_ios
+    - UITemplateKit/APPActionSet (= 2.0.0)
+    - UITemplateKit/Camera (= 2.0.0)
+    - UITemplateKit/listType (= 2.0.0)
+    - "UITemplateKit/下拉列表 (= 2.0.0)"
+    - "UITemplateKit/人员选取 (= 2.0.0)"
+    - "UITemplateKit/侧滑容器视图 (= 2.0.0)"
+    - "UITemplateKit/分类筛选 (= 2.0.0)"
+    - "UITemplateKit/分页器 (= 2.0.0)"
+    - "UITemplateKit/城市选择 (= 2.0.0)"
+    - "UITemplateKit/底部导航 (= 2.0.0)"
+    - "UITemplateKit/弹窗容器视图 (= 2.0.0)"
+    - "UITemplateKit/强提示 (= 2.0.0)"
+    - "UITemplateKit/强提示2 (= 2.0.0)"
+    - "UITemplateKit/搜索 (= 2.0.0)"
+    - "UITemplateKit/文章标题 (= 2.0.0)"
+    - "UITemplateKit/断网提示 (= 2.0.0)"
+    - "UITemplateKit/新特性 (= 2.0.0)"
+    - "UITemplateKit/日期选择 (= 2.0.0)"
+    - "UITemplateKit/照片选择 (= 2.0.0)"
+    - "UITemplateKit/登录 (= 2.0.0)"
+    - "UITemplateKit/简单容器视图 (= 2.0.0)"
+    - "UITemplateKit/级联选择视图 (= 2.0.0)"
+    - "UITemplateKit/聊天列表 (= 2.0.0)"
+    - "UITemplateKit/聊天详情 (= 2.0.0)"
+    - "UITemplateKit/表单容器视图 (= 2.0.0)"
+    - "UITemplateKit/贴纸视图 (= 2.0.0)"
+    - "UITemplateKit/轮播控件 (= 2.0.0)"
+    - "UITemplateKit/通用选择 (= 2.0.0)"
+    - "UITemplateKit/默认弹窗 (= 2.0.0)"
+  - UITemplateKit/APPActionSet (2.0.0):
+    - bench_ios
+  - UITemplateKit/Camera (2.0.0):
+    - bench_ios
+    - UITemplateKit/Camera/Core (= 2.0.0)
+    - UITemplateKit/Camera/photo (= 2.0.0)
+    - UITemplateKit/Camera/qrcode (= 2.0.0)
+  - UITemplateKit/Camera/Core (2.0.0):
+    - bench_ios
+  - UITemplateKit/Camera/photo (2.0.0):
+    - bench_ios
+    - UITemplateKit/Camera/Core
+  - UITemplateKit/Camera/qrcode (2.0.0):
+    - bench_ios
+    - UITemplateKit/Camera/Core
+  - UITemplateKit/listType (2.0.0):
+    - bench_ios
+    - Masonry
+  - "UITemplateKit/下拉列表 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/人员选取 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/侧滑容器视图 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/分类筛选 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/分页器 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/城市选择 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/底部导航 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/弹窗容器视图 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/强提示 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/强提示2 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/搜索 (2.0.0)":
+    - bench_ios
+    - "UITemplateKit/搜索/template (= 2.0.0)"
+  - "UITemplateKit/搜索/template (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/文章标题 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/断网提示 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/新特性 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/日期选择 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/照片选择 (2.0.0)":
+    - bench_ios
+    - UITemplateKit/Camera/photo
+    - "UITemplateKit/侧滑容器视图"
+  - "UITemplateKit/登录 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/简单容器视图 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/级联选择视图 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/聊天列表 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/聊天详情 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/表单容器视图 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/贴纸视图 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/轮播控件 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/通用选择 (2.0.0)":
+    - bench_ios
+  - "UITemplateKit/默认弹窗 (2.0.0)":
+    - bench_ios
+  - UITemplateTest (2.0.0):
+    - bench_ios
+    - "UITemplateTest/通用UI (= 2.0.0)"
+  - "UITemplateTest/通用UI (2.0.0)":
+    - bench_ios
+
+DEPENDENCIES:
+  - AccountLib (from `https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/AccountLib/AccountLib`)
+  - bench_ios (from `https://huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios`)
+  - CurrencyKit (from `https://huored.gicp.net:8088/svn/bench_ios/trunk/kit/CurrencyKit/CurrencyKit`)
+  - FinanceLib (from `https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/FinanceLib/FinanceLib`)
+  - Masonry
+  - UITemplateKit (from `https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit`)
+  - UITemplateTest (from `https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - MJRefresh
+
+EXTERNAL SOURCES:
+  AccountLib:
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/AccountLib/AccountLib
+  bench_ios:
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios
+  CurrencyKit:
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/kit/CurrencyKit/CurrencyKit
+  FinanceLib:
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/FinanceLib/FinanceLib
+  UITemplateKit:
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit
+  UITemplateTest:
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit
+
+CHECKOUT OPTIONS:
+  AccountLib:
+    :revision: '1319'
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/AccountLib/AccountLib
+  bench_ios:
+    :revision: '1319'
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios
+  CurrencyKit:
+    :revision: '1319'
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/kit/CurrencyKit/CurrencyKit
+  FinanceLib:
+    :revision: '1319'
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/lib/FinanceLib/FinanceLib
+  UITemplateKit:
+    :revision: '1319'
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit
+  UITemplateTest:
+    :revision: '1319'
+    :svn: https://huored.gicp.net:8088/svn/bench_ios/trunk/UITemplate/UITemplateKit
+
+SPEC CHECKSUMS:
+  AccountLib: 199afc71918bbdcdbfd5ae02b1ee6dc1b463469a
+  bench_ios: 458d45cc5ba31aa01aa419fe420903cce9e0a149
+  CurrencyKit: 1108e63517a88570b618017874bd572e34006d40
+  FinanceLib: a6329f02ed4c28adbf759e7567b5aee458646e0b
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: 72a46ecaa2a0feaf48fc5198dff95f25f8bb27c6
+  UITemplateKit: 0936baecf3095cd5910962459d9dc47744f447b6
+  UITemplateTest: 9c5129e889529dabdd0a297c1ceff8efc12cea82
+
+PODFILE CHECKSUM: 2d828cae1f331fe309caf0e31aa655e8c0993620
+
+COCOAPODS: 1.8.4

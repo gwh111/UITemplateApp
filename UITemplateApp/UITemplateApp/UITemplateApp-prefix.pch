@@ -1,0 +1,16 @@
+//
+//  UITemplateApp-prefix.pch
+//  UITemplateApp
+//
+//  Created by gwh on 2019/11/26.
+//  Copyright © 2019 gwh. All rights reserved.
+//
+
+#ifndef UITemplateApp_pch
+#define UITemplateApp_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "ccs.h"
+
+#endif /* UITemplateApp_pch */
