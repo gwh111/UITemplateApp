@@ -52,5 +52,7 @@
 	<string>KK云健康会在保存图片时访问您的添加图片到本地相册权限</string>
 	<key>NSPhotoLibraryUsageDescription</key>
 	<string>KK云健康会在读取相册时访问您的本地相册权限</string>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>
