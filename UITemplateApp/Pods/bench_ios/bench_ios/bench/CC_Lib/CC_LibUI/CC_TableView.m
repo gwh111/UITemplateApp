@@ -62,7 +62,7 @@
             [(UIView *)[cell.contentView.subviews lastObject] removeFromSuperview];
         }
     }
-    
+    cell.textLabel.backgroundColor = UIColor.clearColor;
     cell.textLabel.text = _list[indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     return cell;

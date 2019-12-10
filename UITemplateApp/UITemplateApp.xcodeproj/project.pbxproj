@@ -588,6 +588,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V988GE98EW;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/UITemplateApp/UITemplateApp-prefix.pch";
 				INFOPLIST_FILE = UITemplateApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,6 +607,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V988GE98EW;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/UITemplateApp/UITemplateApp-prefix.pch";
 				INFOPLIST_FILE = UITemplateApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
