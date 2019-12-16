@@ -25,12 +25,12 @@
     self.cc_title = @"业务UI";
     
     [ccs configureEnvironment:CCBUILDTAG];
-    // http://user-account-api-mobile-base1.legend.net/web/exterface/execute/
-    NSArray *account = @[@"http://user-account-api-mobile-base1.legend.net/web/exterface/execute", @"http://api-test.legend.net/web/exterface/execute/responseMock"];
+    
+    NSArray *account = @[@"http://xxx", @"http://xxx"];
     [ccs accountLib_configureMainURLs:account];
-    NSArray *finance = @[@"http://user-finance-api-mobile-base1.legend.net/web/exterface/execute", @"http://api-test.legend.net/web/exterface/execute/responseMock"];
+    NSArray *finance = @[@"http://xxx", @"http://xxx"];
     [ccs financeLib_configureMainURLs:finance];
-    NSArray *area = @[@"http://user-area-api-mobile-base1.legend.net/web/exterface/execute", @"http://api-test.legend.net/web/exterface/execute/responseMock"];
+    NSArray *area = @[@"http://xxx", @"http://xxx"];
     [ccs areaLib_configureMainURLs:area];
     
     CC_HttpConfig *httpConf = ccs.httpTask.configure;
